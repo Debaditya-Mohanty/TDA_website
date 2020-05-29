@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding:0px
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 14px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+    
+    
+}
+#navbar{
+    padding:8px 4px;
+    background-color: black;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+#navbar li{
+    list-style: none;
+    background-color: rgb(123, 240, 112);
+    margin:1px 7px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+#navbar li a:hover{
+    color: aqua;
+}
+
+
+#intro{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    height:1500px;
+    background-color: red;
+    background:center / cover no-repeat url("/static/bg.jpg") ;
+    opacity: 0.9;
+    padding-bottom: 1330px;
+}
+#intro div.small{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+}
+
+#sponsorsection{
+    height:300px;
+    background-color: yellow;
+
+}
+
+#sponsorsection h3{
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#mission{
+    height: 420px;
+    margin:auto;
+    display: block;
+    
+
+}
+#mission h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 4px;
+    width:30%;
+    margin: 6px 25px;
+    height: 309px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin:2px 2px
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardimg{
+    height:130px;
+    padding :0px 14px;
+    margin: 5px 9px;
+
+}
+.cardimg img{
+    height:inherit;
+    
+}
+.cardcontent{
+    padding:0 10px;
+    text-align: center;
+}
+
+#sponsors{
+    height:190px;
+    max-width: 1200px;
+    margin: 27px auto;
+}
+.spimage{
+    height:80%;
+    margin: 25px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+ 
+    background-color: black;
+    color: white;
+}
