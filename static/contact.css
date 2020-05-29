@@ -1,0 +1,39 @@
+h2{
+    margin:auto;
+    text-align: center;
+    margin-top:40px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myinput{
+    width: 35%;
+    padding: 10px;
+    margin:1%;
+    font-size: 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    
+}
+
+.myform{
+    margin-top: 70px;
+    /* margin:15px; */
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 7px 16px; 
+    font-size: 16px;
+    background-color: antiquewhite;
+    border: 2px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 26px ;
+}
+.container{
+    min-height: 100vh;
+}
